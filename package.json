@@ -1,0 +1,19 @@
+{
+  "name": "discord-security-bot",
+  "version": "1.0.0",
+  "description": "Advanced Discord Security Bot with Moderation and Anti-Nuking Capabilities",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.22.1",
+    "dotenv": "^16.6.1",
+    "mongoose": "^7.8.7",
+    "winston": "^3.17.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
